@@ -10,6 +10,7 @@ df = pd.read_excel(r'C:\Users\hammonn\Documents\Etown_College-04_04_23-05_17_23-
 
 # Create a Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the dropdown menu options for y-axis selection
 y_options = [
